@@ -13,9 +13,11 @@
 .footer__content {}
 
 .footer__list {
-    display: grid;
+    padding-top: 24px;
+    display: inline-grid;
     grid-template-columns: repeat(5, min-content);
     gap: 52px;
+    border-top: 1px solid #C4C4C4;
 }
 
 .footer__item {}
