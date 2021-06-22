@@ -1,0 +1,33 @@
+.feature {
+    position: relative;
+}
+
+.feature::before {
+    content: "1";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 96px;
+    font-weight: 600;
+    color: rgba(249, 189, 189, 0.25);
+    transform: translate(30px, 20px);
+}
+
+.feature:nth-child(2)::before {
+    transform: translate(40px, 20px);
+    content: "2";
+}
+
+.feature:nth-child(3)::before {
+    content: "3";
+}
+
+.feature:nth-child(4)::before {
+    content: "4";
+}
+
+.feature__img {
+    margin-bottom: 24px;
+}
+
+.feature__title {}

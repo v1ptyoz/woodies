@@ -1,0 +1,11 @@
+.features {
+    padding-top: 65px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.features__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 65px;
+}

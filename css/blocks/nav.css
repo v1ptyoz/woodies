@@ -1,0 +1,20 @@
+.nav {
+    justify-self: start;
+    position: relative;
+    z-index: 10;
+}
+
+.nav__list {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: 48px;
+}
+
+.nav__item {}
+
+.nav__link {}
+
+.nav__link--active {
+    font-weight: bold;
+    color: #DAA520;
+}

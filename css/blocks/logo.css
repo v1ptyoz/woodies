@@ -1,0 +1,8 @@
+.logo {
+    justify-self: start;
+    display: block;
+    width: 192px;
+    height: 33px;
+}
+
+.logo__img {}

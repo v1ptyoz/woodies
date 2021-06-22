@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.42;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {}
+
+.wrapper__content {}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+}

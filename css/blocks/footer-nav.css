@@ -1,0 +1,31 @@
+.footer-nav {
+    margin-bottom: 45px;
+}
+
+.footer-nav__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+    gap: 15px;
+    align-items: center;
+}
+
+.footer-nav__item {}
+
+.footer-nav__link {
+    display: block;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+.footer-nav__link:hover {
+    color: #333333;
+}
+
+.footer-nav__header {
+    font-weight: 600;
+    font-size: 18px;
+    white-space: nowrap;
+    color: #333333;
+    margin-top: 6px;
+}
